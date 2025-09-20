@@ -49,26 +49,26 @@
       color: rgb(14, 36, 235);
     }
 
-    /* Hero */
-    .hero {
+    /* Photo */
+    .robert {
       display: flex;
       align-items: center;
       padding: 60px 0;
       background: #101010;
     }
 
-    .hero-content {
+    .robert-content {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
     }
 
-    .hero-text {
+    .robert-text {
       flex: 1;
     }
 
-    .hero-img img {
+    .robert-img img {
       width: 300px;
       border-radius: 50%;
       border: 4px solid rgb(14, 36, 235);
@@ -177,26 +177,5 @@ footer {
   font-size: 14px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-content {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
 
-  .stats {
-    flex-direction: column;
-    gap: 20px;
-  }
 
-  .service-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-}
